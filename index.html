@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="pantalla">
+            <div class="operacion-previa" data-operacion-previa></div>
+            <div class="operacion-actual" data-operacion-actual></div>
+        </div>
+        <!-- Fila  1: AC, DEL, ÷ -->
+        <button data-todo class="span-dos">AC</button>
+        <button data-borrar>DEL</button>
+        <button data-operacion>÷</button>
+        <!-- fila 2: 7, 8, 9, × -->
+        <button data-numero>7</button>
+        <button data-numero>8</button>
+        <button data-numero>9</button>
+        <button data-operacion>×</button>
+        <!-- fila 3: 4, 5, 6, - -->
+        <button data-numero>4</button>
+        <button data-numero>5</button>
+        <button data-numero>6</button>
+        <button data-operacion>-</button>
+        <!-- fila 4: 1, 2, 3, + -->
+        <button data-numero>1</button>
+        <button data-numero>2</button>
+        <button data-numero>3</button>
+        <button data-operacion>+</button>
+        <!-- fila 5: ., 0, = -->
+        <button data-numero>.</button>
+        <button data-numero>0</button>
+        <button data-igual class="span-dos">=</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
